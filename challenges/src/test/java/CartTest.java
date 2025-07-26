@@ -14,7 +14,7 @@ public class CartTest {
         Product p1 = new Product("Leche", 2.0, 3, true);
         Product p2 = new Product("Pan", 1.5, 2, false);
         Product p3 = new Product("Huevos", 3.0, 3, true);
-        Product p4 = new Product("tortilas", 3.0, 3, false);
+        Product p4 = new Product("Tortilas", 3.0, 3, false);
         Cart cart = new Cart(Arrays.asList(p1, p2, p3, p4), new DiscountService());
 
         double total = cart.calculateTotal();
